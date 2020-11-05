@@ -1,0 +1,10 @@
+.feed {
+  max-width: 600px;
+  flex: 1;
+  padding: 15px 25px;
+  margin-left: -25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

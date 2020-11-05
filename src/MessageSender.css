@@ -1,0 +1,63 @@
+.messageSender {
+  display: flex;
+  flex-direction: column;
+  width: 96%;
+  border-radius: 15px;
+  background-color: #fff;
+  margin-top: 30px;
+  box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+}
+
+.messageSender__top {
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid #eff2f5;
+}
+.messageSender__top > form {
+  display: flex;
+  flex: 1;
+}
+
+.messageSender__top > form > input {
+  border: none;
+  outline-width: 0;
+  padding: 3px 18px;
+  margin: 0 10px;
+  background-color: #eff2f5;
+  border-radius: 999px;
+  transition: 0.4 ease;
+}
+.messageSender__top > form > input:hover {
+  background-color: #d1d6da;
+}
+
+.messageSender__top > form > button {
+  display: none;
+}
+
+.messageSender__input {
+  flex: 1;
+}
+.messageSender__bottom {
+  display: flex;
+  justify-content: space-evenly;
+}
+.messageSender__option {
+  display: flex;
+  align-items: center;
+  color: #a1a4a7;
+  font-size: small;
+  padding: 10px 18px;
+  margin: 5px;
+}
+
+.messageSender__option > h3 {
+  margin-left: 10px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.messageSender__option:hover {
+  background-color: #dcdfe2;
+  border-radius: 999px;
+}
